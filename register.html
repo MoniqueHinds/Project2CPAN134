@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Register to join The World of Video Games gaming community.">
+
+    <title>Register | The World of Video Games</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>The World of Video Games</h1>
+        <p>Join our gaming community and share the games you enjoy.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="games.html">Popular Games</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <main>
+
+        <section class="registration-intro">
+
+            <h2>Join the Gaming Community</h2>
+
+            <p>
+                Gaming brings together people who enjoy competition,
+                creativity, stories, and teamwork. Fill out the form
+                below to create your gaming community profile.
+            </p>
+
+        </section>
+
+        <div class="registration-layout">
+
+            <section class="form-section">
+
+                <h2>Registration Form</h2>
+
+                <form id="registrationForm" novalidate>
+
+                    <div class="form-group">
+
+                        <label for="firstName">
+                            First Name
+                        </label>
+
+                        <input type="text" id="firstName" name="firstName">
+
+                        <span class="error-message" id="firstNameError" aria-live="polite"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="lastName">
+                            Last Name
+                        </label>
+
+                        <input type="text" id="lastName" name="lastName">
+
+                        <span class="error-message" id="lastNameError" aria-live="polite"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input type="email" id="email" name="email">
+
+                        <span class="error-message" id="emailError" aria-live="polite"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="username">
+                            Username
+                        </label>
+
+                        <input type="text" id="username" name="username">
+
+                        <span class="error-message" id="usernameError" aria-live="polite"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <input type="password" id="password" name="password">
+
+                        <span class="error-message" id="passwordError" aria-live="polite"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="confirmPassword">
+                            Confirm Password
+                        </label>
+
+                        <input type="password" id="confirmPassword" name="confirmPassword">
+
+                        <span class="error-message" id="confirmPasswordError" aria-live="polite"></span>
+
+                    </div>
+
+                    <fieldset>
+
+                        <legend>Favorite Game Genre</legend>
+
+                        <label>
+                            <input type="radio" name="genre" value="Action">
+                            Action
+                        </label>
+
+                        <label>
+                            <input type="radio" name="genre" value="Adventure">
+                            Adventure
+                        </label>
+
+                        <label>
+                            <input type="radio" name="genre" value="Sports">
+                            Sports
+                        </label>
+
+                        <label>
+                            <input type="radio" name="genre" value="Other">
+                            Other
+                        </label>
+
+                        <span class="error-message" id="genreError" aria-live="polite"></span>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Gaming Platforms</legend>
+
+                        <label>
+                            <input type="checkbox" name="platform" value="PC">
+                            PC
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="platform" value="PlayStation">
+                            PlayStation
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="platform" value="Xbox">
+                            Xbox
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="platform" value="Nintendo">
+                            Nintendo
+                        </label>
+
+                        <span class="error-message" id="platformError" aria-live="polite"></span>
+
+                    </fieldset>
+
+                    <div class="form-group">
+
+                        <label for="favoriteGame">
+                            Favorite Video Game
+                        </label>
+
+                        <input type="text" id="favoriteGame" name="favoriteGame">
+
+                    </div>
+
+                    <button type="submit">
+                        Join Now
+                    </button>
+
+                    <p id="successMessage" class="success-message" aria-live="polite"></p>
+
+                </form>
+
+            </section>
+
+            <aside class="register-aside">
+                <!--
+                     Esports Team Image
+                     https://www.pexels.com/photo/team-playing-competitive-e-sports-9071736/
+                -->
+
+                <img src="images/esports.jpg" alt="Team playing competitive esports">
+
+
+                <h2>Why Join?</h2>
+
+                <p>
+                    Gaming communities let people share their interests
+                    and discover games they may not have tried before.
+                </p>
+
+                <h3>Discover New Games</h3>
+
+                <p>
+                    Learn about different gaming genres and find games
+                    that match the types of experiences you enjoy.
+                </p>
+
+                <h3>Different Platforms</h3>
+
+                <p>
+                    Whether you play on PC, PlayStation, Xbox, or Nintendo,
+                    there are many ways to enjoy gaming.
+                </p>
+
+                <h3>Play Together</h3>
+
+                <p>
+                    Online games allow friends to cooperate, compete,
+                    communicate, and enjoy games together.
+                </p>
+
+            </aside>
+
+        </div>
+
+        <section class="registration-bottom">
+
+            <h2>Gaming Is Better Together</h2>
+
+            <p>
+                Multiplayer gaming has made video games more social.
+                Players can complete missions together, compete in teams,
+                communicate during games, and enjoy shared experiences
+                even when they live in different places.
+            </p>
+
+            <p>
+                Gaming communities can also help players learn about
+                new releases, different gaming platforms, and popular
+                genres. There is something available for almost every
+                type of player.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created by Monique CPAN134</p>
+        <p>Thank you for viewing the World of Video Games</p>
+    </footer>
+
+    <script src="formvalidation.js"></script>
+
+</body>
+
+</html>
